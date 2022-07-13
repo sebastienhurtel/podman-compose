@@ -1622,7 +1622,7 @@ class PodmanCompose:
             help="custom arguments to be passed to `podman pod`",
             metavar="pod_args",
             type=str,
-            default="--infra=false --share=",
+            default="--infra=true --share=",
         )
         parser.add_argument(
             "--env-file",
